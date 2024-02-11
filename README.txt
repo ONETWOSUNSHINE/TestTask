@@ -3,7 +3,7 @@ Java(TM) SE Runtime Environment (build 21.0.1+12-LTS-29)
 Java HotSpot(TM) 64-Bit Server VM (build 21.0.1+12-LTS-29, mixed mode, sharing)
 
 Компиляция: javac FileFilter.java . Это создаст FileFilter.class и Statistics.class.
-Пример запуска программы: java FileFilter -o /some/path -p result_ -f file1.txt file2.txt
+Пример запуска программы: java FileFilter -o /some/path -p result_ -f in1.txt in2.txt
 
 1. Если директория, переданная в опции -o, не существует, то эта опция создаст новую директорию.
 2. Путь, переданный в опции -o, будет автоматически будет окружен "/".
